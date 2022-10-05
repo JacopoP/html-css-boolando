@@ -33,3 +33,31 @@ header img{
 }
 
 /* main rules */
+.row_product{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_product:first-child{
+    margin-top: 100px;
+}
+
+.product{
+    width: calc(100% / 3 - 20px)
+}
+
+.product img{
+    width: 100%;
+}
+
+/* .product:hover img.no-hover{
+    display: none;
+} */
+
+img.hover{
+    display: none;
+}
+
+/* .product:hover img.hover{
+    display: block;
+} */
